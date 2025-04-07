@@ -1,0 +1,665 @@
+2025-04-06 01:55:06,882 [INFO] MainUpdater:2872 - connection check result : 10
+2025-04-06 01:55:06,905 [INFO] MainUpdater:2872 - connection check result : 10
+2025-04-06 01:55:06,933 [INFO] I2sManager:658 - 9.6E7
+2025-04-06 01:55:06,933 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2025-04-06 01:55:06,933 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2025-04-06 01:55:06,942 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-04-06 01:55:06,942 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.140
+2025-04-06 01:55:06,988 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$9.caretUpdate(ProjectChoiceTab.java:2678) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:408) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4484) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4506) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:857) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1343) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1242) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1223) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1819) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:227) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:781) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:740) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:699) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1725) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:979) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3766) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1962) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:555) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:899) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:789) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:287) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:341) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:319) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.14.0.202502271554/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-04-06 01:55:06,990 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-04-06 01:55:06,990 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-04-06 01:55:06,990 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-04-06 01:55:06,997 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-04-06 01:55:07,015 [WARN] IpParametersView:155 - Warning: This peripheral hasn't parameters
+2025-04-06 01:55:07,034 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-04-06 01:55:07,044 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 663885096 Bytes (1073741824)
+2025-04-06 01:55:07,046 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-04-06 01:55:07,046 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.140
+2025-04-06 01:55:07,046 [INFO] OpenFileManager:354 - Change cursor
+2025-04-06 01:55:07,090 [INFO] RulesReader:64 - Compatibility file has been processed (301 Rules)
+2025-04-06 01:55:07,097 [INFO] Mcu:2011 - Initializing MCU STM32F407V(E-G)Tx STM32F407VGTx STM32F407VGT6
+2025-04-06 01:55:08,464 [INFO] Context:756 - Trying to add GPIOservice into a context  which must be forbidden
+2025-04-06 01:55:09,093 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Pin49 (VP_RIF_VS_RIF1) cannot be retrieved for this MCU
+2025-04-06 01:55:09,185 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-04-06 01:55:09,185 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-04-06 01:55:09,185 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-04-06 01:55:09,185 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-04-06 01:55:09,185 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-04-06 01:55:09,198 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,198 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-06 01:55:09,200 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2025-04-06 01:55:09,359 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-04-06 01:55:09,903 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-04-06 01:55:09,914 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2025-04-06 01:55:09,919 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:09,919 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:09,919 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:10,149 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 606502264 Bytes (1073741824)
+2025-04-06 01:55:10,189 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-04-06 01:55:10,189 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-04-06 01:55:10,189 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-04-06 01:55:10,189 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-04-06 01:55:10,189 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-04-06 01:55:10,189 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-04-06 01:55:10,189 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-04-06 01:55:10,189 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.2
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.2
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-04-06 01:55:10,190 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-04-06 01:55:10,191 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.1.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-04-06 01:55:10,192 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.6
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 2.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.1.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.1.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.3.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2025-04-06 01:55:10,193 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-04-06 01:55:10,193 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-04-06 01:55:10,503 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-04-06 01:55:10,504 [INFO] PinOutPanel:1589 - setPackage(STM32F407VGTx,LQFP100)
+2025-04-06 01:55:10,774 [INFO] UtilMem:75 - Before build in PCC Used Memory: 798487144 Bytes (1073741824)
+2025-04-06 01:55:11,058 [INFO] UtilMem:75 - After build in PCC Used Memory: 846721640 Bytes (1073741824)
+2025-04-06 01:55:11,070 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-04-06 01:55:11,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-06 01:55:11,107 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2025-04-06 01:55:11,108 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,108 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,111 [INFO] I2sManager:658 - 9.6E7
+2025-04-06 01:55:11,111 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2025-04-06 01:55:11,111 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2025-04-06 01:55:11,162 [INFO] CADModel:165 - CPN selected for project levelSTM32F407VGT6
+2025-04-06 01:55:11,162 [INFO] CADModel:114 - Register for checkConnection events
+2025-04-06 01:55:11,218 [INFO] OpenFileManager:385 - Restore cursor
+2025-04-06 01:55:11,356 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,356 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,356 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,357 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,357 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,357 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,377 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,377 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,378 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 01:55:11,378 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 02:05:57,621 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-06 02:05:58,564 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 897249632 Bytes (1073741824)
+2025-04-06 02:05:59,660 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 920022816 Bytes (1073741824)
+2025-04-06 02:06:00,983 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 486975976 Bytes (1073741824)
+2025-04-06 02:06:01,190 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_DEVICE
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-04-06 02:06:01,191 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-04-06 02:06:01,192 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-04-06 02:06:01,194 [INFO] CodeGenerator:882 - code generatio: config db path: C:\WORK\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-04-06 02:06:01,197 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:01,197 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:01,218 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:01,219 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:01,219 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:01,381 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp_save
+2025-04-06 02:06:01,656 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp
+2025-04-06 02:06:01,714 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp_save
+2025-04-06 02:06:01,854 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp
+2025-04-06 02:06:01,930 [WARN] IPConfigManager:3174 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-04-06 02:06:01,936 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2025-04-06 02:06:02,031 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp
+2025-04-06 02:06:02,034 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2025-04-06 02:06:02,113 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp
+2025-04-06 02:06:02,116 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2025-04-06 02:06:02,228 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2025-04-06 02:06:02,232 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2025-04-06 02:06:02,342 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp
+2025-04-06 02:06:02,690 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:06:02,714 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:06:02,722 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c_save
+2025-04-06 02:06:02,812 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c
+2025-04-06 02:06:02,816 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h_save
+2025-04-06 02:06:02,908 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h
+2025-04-06 02:06:02,912 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h_save
+2025-04-06 02:06:03,003 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h
+2025-04-06 02:06:03,008 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c_save
+2025-04-06 02:06:03,109 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c
+2025-04-06 02:06:03,114 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h_save
+2025-04-06 02:06:03,198 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h
+2025-04-06 02:06:03,202 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c_save
+2025-04-06 02:06:03,310 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c
+2025-04-06 02:06:03,316 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-04-06 02:06:03,399 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h
+2025-04-06 02:06:03,403 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-04-06 02:06:03,470 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c
+2025-04-06 02:06:03,480 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c_save
+2025-04-06 02:06:03,629 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c
+2025-04-06 02:06:03,633 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h_save
+2025-04-06 02:06:03,683 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h
+2025-04-06 02:06:03,696 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-06 02:06:03,771 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c
+2025-04-06 02:06:03,776 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp_save
+2025-04-06 02:06:03,823 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp
+2025-04-06 02:06:03,830 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-06 02:06:03,878 [INFO] CodeEngine:343 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-06 02:06:03,902 [INFO] ApiDbMcu:508 - Load IP Config File for I2C1
+2025-04-06 02:06:03,904 [INFO] ApiDbMcu:508 - Load IP Config File for I2S3
+2025-04-06 02:06:03,906 [INFO] ApiDbMcu:508 - Load IP Config File for SPI1
+2025-04-06 02:06:03,913 [INFO] ApiDbMcu:508 - Load IP Config File for TIM1
+2025-04-06 02:06:03,920 [INFO] ApiDbMcu:508 - Load IP Config File for TIM3
+2025-04-06 02:06:03,923 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-04-06 02:06:03,924 [WARN] IPConfigManager:3747 - IP not found : TIM
+2025-04-06 02:06:03,925 [WARN] CodeGenerator:4198 - IP not found : null
+2025-04-06 02:06:03,930 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h_save
+2025-04-06 02:06:03,989 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h
+2025-04-06 02:06:03,993 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c_save
+2025-04-06 02:06:04,083 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c
+2025-04-06 02:06:04,366 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 149mS.
+2025-04-06 02:06:04,371 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-04-06 02:06:04,444 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-04-06 02:06:04,447 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-04-06 02:06:04,450 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-04-06 02:06:04,451 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2025-04-06 02:06:04,455 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2025-04-06 02:06:04,459 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2025-04-06 02:06:04,461 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2025-04-06 02:06:05,319 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 947mS.
+2025-04-06 02:06:05,319 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-04-06 02:06:05,325 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-04-06 02:06:33,607 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-06 02:06:34,789 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 785988456 Bytes (1073741824)
+2025-04-06 02:06:35,782 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 816923496 Bytes (1073741824)
+2025-04-06 02:06:37,380 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 874595176 Bytes (1073741824)
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_DEVICE
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-04-06 02:06:37,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-04-06 02:06:37,546 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-04-06 02:06:37,548 [INFO] CodeGenerator:882 - code generatio: config db path: C:\WORK\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-04-06 02:06:37,550 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:37,550 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:37,570 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:37,570 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:37,570 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:06:37,667 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp_save
+2025-04-06 02:06:37,737 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp
+2025-04-06 02:06:37,776 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp_save
+2025-04-06 02:06:37,852 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp
+2025-04-06 02:06:37,908 [WARN] IPConfigManager:3174 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-04-06 02:06:37,915 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2025-04-06 02:06:37,955 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp
+2025-04-06 02:06:37,957 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2025-04-06 02:06:38,002 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp
+2025-04-06 02:06:38,005 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2025-04-06 02:06:38,057 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2025-04-06 02:06:38,061 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2025-04-06 02:06:38,116 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp
+2025-04-06 02:06:38,299 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:06:38,334 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:06:38,339 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c_save
+2025-04-06 02:06:38,396 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c
+2025-04-06 02:06:38,399 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h_save
+2025-04-06 02:06:38,446 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h
+2025-04-06 02:06:38,449 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h_save
+2025-04-06 02:06:38,497 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h
+2025-04-06 02:06:38,501 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c_save
+2025-04-06 02:06:38,547 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c
+2025-04-06 02:06:38,552 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h_save
+2025-04-06 02:06:38,612 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h
+2025-04-06 02:06:38,616 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c_save
+2025-04-06 02:06:38,661 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c
+2025-04-06 02:06:38,664 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-04-06 02:06:38,702 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h
+2025-04-06 02:06:38,706 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-04-06 02:06:38,747 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c
+2025-04-06 02:06:38,756 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c_save
+2025-04-06 02:06:38,799 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c
+2025-04-06 02:06:38,804 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h_save
+2025-04-06 02:06:38,842 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h
+2025-04-06 02:06:38,853 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-06 02:06:38,914 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c
+2025-04-06 02:06:38,918 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp_save
+2025-04-06 02:06:38,964 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp
+2025-04-06 02:06:38,972 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-06 02:06:39,015 [INFO] CodeEngine:343 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-06 02:06:39,031 [WARN] IPConfigManager:3747 - IP not found : TIM
+2025-04-06 02:06:39,032 [WARN] CodeGenerator:4198 - IP not found : null
+2025-04-06 02:06:39,038 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h_save
+2025-04-06 02:06:39,095 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h
+2025-04-06 02:06:39,099 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c_save
+2025-04-06 02:06:39,178 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c
+2025-04-06 02:06:39,457 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 155mS.
+2025-04-06 02:06:39,461 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-04-06 02:06:39,523 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-04-06 02:06:40,197 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 736mS.
+2025-04-06 02:06:40,198 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-04-06 02:06:40,203 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-04-06 02:07:43,445 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-06 02:07:44,849 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 580483504 Bytes (1073741824)
+2025-04-06 02:07:45,863 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 610892208 Bytes (1073741824)
+2025-04-06 02:07:47,295 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 667515312 Bytes (1073741824)
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_DEVICE
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-04-06 02:07:47,417 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-04-06 02:07:47,418 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-04-06 02:07:47,419 [INFO] CodeGenerator:882 - code generatio: config db path: C:\WORK\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-04-06 02:07:47,423 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 02:07:47,423 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 02:07:47,434 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:07:47,434 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:07:47,434 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:07:47,501 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp_save
+2025-04-06 02:07:47,549 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp
+2025-04-06 02:07:47,575 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp_save
+2025-04-06 02:07:47,634 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp
+2025-04-06 02:07:47,681 [WARN] IPConfigManager:3174 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-04-06 02:07:47,688 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2025-04-06 02:07:47,732 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp
+2025-04-06 02:07:47,734 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2025-04-06 02:07:47,769 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp
+2025-04-06 02:07:47,771 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2025-04-06 02:07:47,812 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2025-04-06 02:07:47,814 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2025-04-06 02:07:47,864 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp
+2025-04-06 02:07:48,080 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:07:48,097 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:07:48,105 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c_save
+2025-04-06 02:07:48,170 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c
+2025-04-06 02:07:48,174 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h_save
+2025-04-06 02:07:48,222 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h
+2025-04-06 02:07:48,225 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h_save
+2025-04-06 02:07:48,278 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h
+2025-04-06 02:07:48,282 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c_save
+2025-04-06 02:07:48,343 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c
+2025-04-06 02:07:48,348 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h_save
+2025-04-06 02:07:48,388 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h
+2025-04-06 02:07:48,391 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c_save
+2025-04-06 02:07:48,435 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c
+2025-04-06 02:07:48,438 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-04-06 02:07:48,483 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h
+2025-04-06 02:07:48,487 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-04-06 02:07:48,532 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c
+2025-04-06 02:07:48,541 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c_save
+2025-04-06 02:07:48,585 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c
+2025-04-06 02:07:48,588 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h_save
+2025-04-06 02:07:48,624 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h
+2025-04-06 02:07:48,634 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-06 02:07:48,688 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c
+2025-04-06 02:07:48,690 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp_save
+2025-04-06 02:07:48,726 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp
+2025-04-06 02:07:48,732 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-06 02:07:48,774 [INFO] CodeEngine:343 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-06 02:07:48,787 [WARN] IPConfigManager:3747 - IP not found : TIM
+2025-04-06 02:07:48,787 [WARN] CodeGenerator:4198 - IP not found : null
+2025-04-06 02:07:48,792 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h_save
+2025-04-06 02:07:48,830 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h
+2025-04-06 02:07:48,834 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c_save
+2025-04-06 02:07:48,908 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c
+2025-04-06 02:07:49,191 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 143mS.
+2025-04-06 02:07:49,195 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-04-06 02:07:49,259 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-04-06 02:07:49,954 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 759mS.
+2025-04-06 02:07:49,955 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-04-06 02:07:49,960 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-04-06 02:11:53,719 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-06 02:12:03,976 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 693581272 Bytes (1073741824)
+2025-04-06 02:12:05,204 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 724512216 Bytes (1073741824)
+2025-04-06 02:12:07,083 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 822556120 Bytes (1073741824)
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_DEVICE
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-04-06 02:12:07,194 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-04-06 02:12:07,195 [INFO] CodeGenerator:882 - code generatio: config db path: C:\WORK\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-04-06 02:12:07,197 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 02:12:07,197 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 02:12:07,208 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:12:07,208 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:12:07,208 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:12:07,272 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp_save
+2025-04-06 02:12:07,318 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp
+2025-04-06 02:12:07,344 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp_save
+2025-04-06 02:12:07,399 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp
+2025-04-06 02:12:07,444 [WARN] IPConfigManager:3174 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-04-06 02:12:07,450 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2025-04-06 02:12:07,499 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp
+2025-04-06 02:12:07,501 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2025-04-06 02:12:07,544 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp
+2025-04-06 02:12:07,546 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2025-04-06 02:12:07,595 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2025-04-06 02:12:07,598 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2025-04-06 02:12:07,645 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp
+2025-04-06 02:12:07,807 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:12:07,839 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:12:07,847 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c_save
+2025-04-06 02:12:07,918 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c
+2025-04-06 02:12:07,921 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h_save
+2025-04-06 02:12:07,973 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h
+2025-04-06 02:12:07,977 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h_save
+2025-04-06 02:12:08,034 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h
+2025-04-06 02:12:08,039 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c_save
+2025-04-06 02:12:08,120 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c
+2025-04-06 02:12:08,125 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h_save
+2025-04-06 02:12:08,168 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h
+2025-04-06 02:12:08,173 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c_save
+2025-04-06 02:12:08,218 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c
+2025-04-06 02:12:08,221 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-04-06 02:12:08,261 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h
+2025-04-06 02:12:08,265 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-04-06 02:12:08,305 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c
+2025-04-06 02:12:08,315 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c_save
+2025-04-06 02:12:08,356 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c
+2025-04-06 02:12:08,360 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h_save
+2025-04-06 02:12:08,397 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h
+2025-04-06 02:12:08,407 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-06 02:12:08,464 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c
+2025-04-06 02:12:08,467 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp_save
+2025-04-06 02:12:08,503 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp
+2025-04-06 02:12:08,511 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-06 02:12:08,559 [INFO] CodeEngine:343 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-06 02:12:08,576 [WARN] IPConfigManager:3747 - IP not found : TIM
+2025-04-06 02:12:08,577 [WARN] CodeGenerator:4198 - IP not found : null
+2025-04-06 02:12:08,581 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h_save
+2025-04-06 02:12:08,626 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h
+2025-04-06 02:12:08,629 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c_save
+2025-04-06 02:12:08,701 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c
+2025-04-06 02:12:08,948 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 140mS.
+2025-04-06 02:12:08,951 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-04-06 02:12:08,999 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-04-06 02:12:09,486 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 535mS.
+2025-04-06 02:12:09,487 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-04-06 02:12:09,491 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-04-06 02:13:10,624 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-06 02:13:17,804 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 804122056 Bytes (1073741824)
+2025-04-06 02:13:19,216 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 835579336 Bytes (1073741824)
+2025-04-06 02:13:20,198 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 891680200 Bytes (1073741824)
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_DEVICE
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-04-06 02:13:20,295 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-04-06 02:13:20,296 [INFO] CodeGenerator:882 - code generatio: config db path: C:\WORK\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2025-04-06 02:13:20,297 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-04-06 02:13:20,297 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-04-06 02:13:20,308 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:13:20,308 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:13:20,308 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2025-04-06 02:13:20,376 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp_save
+2025-04-06 02:13:20,424 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\license.tmp
+2025-04-06 02:13:20,451 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp_save
+2025-04-06 02:13:20,505 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\gpio.tmp
+2025-04-06 02:13:20,542 [WARN] IPConfigManager:3174 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-04-06 02:13:20,546 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2025-04-06 02:13:20,582 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_vars.tmp
+2025-04-06 02:13:20,584 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2025-04-06 02:13:20,618 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_inc.tmp
+2025-04-06 02:13:20,621 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2025-04-06 02:13:20,672 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2025-04-06 02:13:20,674 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2025-04-06 02:13:20,719 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\usb_otg_fs_Msp.tmp
+2025-04-06 02:13:20,874 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:13:20,884 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-04-06 02:13:20,890 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c_save
+2025-04-06 02:13:20,930 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.c
+2025-04-06 02:13:20,934 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h_save
+2025-04-06 02:13:20,973 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usb_device.h
+2025-04-06 02:13:20,976 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h_save
+2025-04-06 02:13:21,015 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.h
+2025-04-06 02:13:21,021 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c_save
+2025-04-06 02:13:21,068 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\Target\usbd_conf.c
+2025-04-06 02:13:21,072 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h_save
+2025-04-06 02:13:21,115 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.h
+2025-04-06 02:13:21,119 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c_save
+2025-04-06 02:13:21,167 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_desc.c
+2025-04-06 02:13:21,171 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-04-06 02:13:21,222 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.h
+2025-04-06 02:13:21,226 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-04-06 02:13:21,285 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\USB_DEVICE\App\usbd_cdc_if.c
+2025-04-06 02:13:21,294 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c_save
+2025-04-06 02:13:21,340 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_it.c
+2025-04-06 02:13:21,344 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h_save
+2025-04-06 02:13:21,387 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_it.h
+2025-04-06 02:13:21,397 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-06 02:13:21,452 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\stm32f4xx_hal_msp.c
+2025-04-06 02:13:21,456 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp_save
+2025-04-06 02:13:21,491 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\MXTmpFiles\system.tmp
+2025-04-06 02:13:21,498 [INFO] CodeEngine:319 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-06 02:13:21,542 [INFO] CodeEngine:343 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-06 02:13:21,557 [WARN] IPConfigManager:3747 - IP not found : TIM
+2025-04-06 02:13:21,557 [WARN] CodeGenerator:4198 - IP not found : null
+2025-04-06 02:13:21,562 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h_save
+2025-04-06 02:13:21,605 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Inc\main.h
+2025-04-06 02:13:21,610 [INFO] CodeEngine:263 - oldGeneratedFile, C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c_save
+2025-04-06 02:13:21,678 [INFO] CodeEngine:287 - Generated code: C:\Users\Christian\STM32CubeIDE\workspace_1.18.0\Basic_Movement_Sensors\Core\Src\main.c
+2025-04-06 02:13:21,994 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 168mS.
+2025-04-06 02:13:21,998 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-04-06 02:13:22,050 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-04-06 02:13:22,510 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 512mS.
+2025-04-06 02:13:22,511 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-04-06 02:13:22,516 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.

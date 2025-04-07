@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="irq"/>
+		<item value="uart"/>
+		<item value="HAL_UART_RxCpltCallback"/>
+		<item value="115200"/>
+		<item value="CDC_Transmit"/>
+		<item value="htim1"/>
+		<item value="toggle"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="354"/>
+	</section>
+</section>

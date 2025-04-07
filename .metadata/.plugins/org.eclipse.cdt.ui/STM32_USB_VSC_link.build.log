@@ -1,0 +1,10 @@
+08:49:40 **** Incremental Build of configuration Debug for project STM32_USB_VSC_link ****
+make -j8 all 
+arm-none-eabi-size  STM32_USB_VSC_link.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33200	    252	  11004	  44456	   ada8	STM32_USB_VSC_link.elf
+Finished building: default.size.stdout
+ 
+
+08:49:41 Build Finished. 0 errors, 0 warnings. (took 339ms)
+
